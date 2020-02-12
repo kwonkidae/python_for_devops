@@ -71,3 +71,8 @@ p(2 in [1, 2, 3])
 p('a' not in 'cat')
 p(10 in range(12))
 p(10 not in range(2, 4))
+
+my_sequence = 'Bill Cheatham'
+p(my_sequence[0])
+p(my_sequence[1])
+p(my_sequence[2])
