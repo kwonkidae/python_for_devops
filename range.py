@@ -76,3 +76,38 @@ my_sequence = 'Bill Cheatham'
 p(my_sequence[0])
 p(my_sequence[1])
 p(my_sequence[2])
+
+p(my_sequence.index('C'))
+p(my_sequence.index('a'))
+p(my_sequence.index('a', 9, 12))
+p(my_sequence[11])
+p(my_sequence[1:10:2])
+
+pies = ['cherry', 'apple']
+desserts = ['cookies', 'paste']
+
+desserts.extend(pies)
+p(desserts)
+p(pies)
+
+squares = []
+for i in range(10):
+    squared = i*i
+    squares.append(squared)
+
+p(squares)
+p([i*i for i in range(10)])
+p([i*i for i in range(10) if i % 2 == 0])
+
+my_list = list()
+p(str(my_list))
+
+multi_line = """This is a
+multi-line string,
+which includes linebreaks.
+"""
+
+print(multi_line)
+
+name = "Bill MonRoe"
+p(name.swapcase())
