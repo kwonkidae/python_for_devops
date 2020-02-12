@@ -66,3 +66,8 @@ p(type(my_car))
 
 p(my_car.wheels)
 my_car.driveFast()
+
+p(2 in [1, 2, 3])
+p('a' not in 'cat')
+p(10 in range(12))
+p(10 not in range(2, 4))
