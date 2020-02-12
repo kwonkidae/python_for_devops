@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+p = print
 r = range(10)
 print(list(r))
 
@@ -46,3 +48,21 @@ while True:
         print("We tried to pop too many thinkers")
         print(e)
         break
+
+# object
+
+
+class FancyCar():
+    wheels = 4
+
+    def driveFast(self):
+        print("Driving so fase")
+
+
+p(type(FancyCar))
+
+my_car = FancyCar()
+p(type(my_car))
+
+p(my_car.wheels)
+my_car.driveFast()
